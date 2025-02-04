@@ -1,0 +1,3 @@
+mkdir -p shaders/msl
+spirv-cross shaders/spv/fragment.spv --msl --output shaders/msl/fragment.msl
+spirv-cross shaders/spv/vertex.spv --msl --output shaders/msl/vertex.msl

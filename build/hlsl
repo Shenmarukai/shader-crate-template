@@ -1,0 +1,3 @@
+mkdir -p shaders/hlsl
+spirv-cross shaders/spv/fragment.spv --hlsl --output shaders/hlsl/fragment.hlsl
+spirv-cross shaders/spv/vertex.spv --hlsl --output shaders/hlsl/vertex.hlsl

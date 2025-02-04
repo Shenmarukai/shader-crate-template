@@ -1,0 +1,5 @@
+mkdir -p shaders
+mkdir -p shaders/spv
+cargo gpu build \
+-o shaders/spv \
+--multimodule

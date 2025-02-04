@@ -1,0 +1,3 @@
+mkdir -p shaders/json
+spirv-cross shaders/spv/fragment.spv --reflect --output shaders/json/fragment.json
+spirv-cross shaders/spv/vertex.spv --reflect --output shaders/json/vertex.json
