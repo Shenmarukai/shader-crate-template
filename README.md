@@ -7,5 +7,5 @@ This crate can also be used from CPU Rust code, just like any other crate.
 Install Cargo GPU using:
 - cargo install --git https://github.com/rust-gpu/cargo-gpu cargo-gpu
 
-Install SPIRV Tools using:
+Install SPIR-V cross-compiler using:
 - sudo apt install spirv-cross
