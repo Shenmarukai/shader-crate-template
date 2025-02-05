@@ -1,5 +1,6 @@
 mkdir -p shaders
 mkdir -p shaders/spv
 cargo gpu build \
+--shader-target spirv-unknown-opengl4.5 \
 -o shaders/spv \
 --multimodule
