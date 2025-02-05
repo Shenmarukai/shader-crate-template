@@ -8,4 +8,4 @@ Install Cargo GPU using:
 - cargo install --git https://github.com/rust-gpu/cargo-gpu cargo-gpu
 
 Install SPIRV Tools using:
-- sudo apt install spirv-tools
+- sudo apt install spirv-cross
